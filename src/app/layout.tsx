@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
-import { Quicksand } from 'next/font/google';
 import './globals.css';
-
-const inter = Quicksand({ subsets: ['latin'], display: 'swap' });
+import { inter } from '@/fonts';
 
 export const metadata: Metadata = {
   title: 'Nathan Levick Home Page',
@@ -15,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`overflow-hidden ${inter.className}`}>{children}</body>
     </html>
   );
 }
