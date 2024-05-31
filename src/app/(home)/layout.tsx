@@ -1,4 +1,6 @@
 // import { roboto } from '@/fonts';
+import Footer from '@/components/Footer';
+import Navigation from '@/components/Navigation';
 import Link from 'next/link';
 import { PropsWithChildren } from 'react';
 
@@ -28,11 +30,9 @@ const SectionLayout = ({ children }: PropsWithChildren) => {
         id="home"
         className="grid min-h-screen grid-cols-1 md:grid-cols-[1fr_2fr] grid-rows-[14fr_1fr]"
       >
-        <nav className="bg-green-500 ">nav bar</nav>
+        <Navigation />
         <main className="bg-blue-400">{children}</main>
-        <footer className="bg-red-900 md:col-span-2">
-          put copywrite/links here
-        </footer>
+        <Footer />
       </div>
     </div>
   );
