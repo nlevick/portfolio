@@ -4,20 +4,20 @@ import Navigation from '@/components/Navigation';
 import Link from 'next/link';
 import { PropsWithChildren } from 'react';
 
-const SectionLayout = ({ children }: PropsWithChildren) => {
+const HomeLayout = ({ children }: PropsWithChildren) => {
   return (
     <div className="grid">
       <header className="flex flex-col justify-between min-h-screen p-32 bg-slate-900">
         <div>
-          <div
+          <h1
             className={`font-medium uppercase text-6xl text-slate-300`}
             // className={`font-medium uppercase text-6xl text-sky-400`}
             // className={`${roboto.className} font-medium uppercase text-7xl text-sky-500`}
           >
             Nathan Levick
-          </div>
+          </h1>
           {/* <div className="mb-4 text-4xl text-sky-300">UX Engineer</div> */}
-          <div className="mb-2 text-4xl text-sky-300">UX Engineer</div>
+          <h2 className="mb-2 text-4xl text-sky-300">UX Engineer</h2>
           {/* <div className="text-2xl text-green-200 italic"> */}
           {/*   prismatic innvoation */}
           {/* </div> */}
@@ -38,4 +38,4 @@ const SectionLayout = ({ children }: PropsWithChildren) => {
   );
 };
 
-export default SectionLayout;
+export default HomeLayout;
