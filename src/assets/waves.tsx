@@ -1,3 +1,5 @@
+import colors from 'tailwindcss/colors';
+
 export default function Waves() {
   return (
     <svg
@@ -20,9 +22,9 @@ export default function Waves() {
           xlinkHref="#gentle-wave"
           x="48"
           y="0"
-          // fill="rgba(255,255,255,0.7)"
-          fill="#bbf7d0"
+          fill={colors.sky[300]}
         />
+
         <use
           className="animate-wave"
           xlinkHref="#gentle-wave"
