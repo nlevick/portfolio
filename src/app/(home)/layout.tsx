@@ -1,29 +1,29 @@
-// import { roboto } from '@/fonts';
+import Waves from '@/components/Waves';
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
+import { Button } from '@nextui-org/button';
 import Link from 'next/link';
 import { PropsWithChildren } from 'react';
 
 const HomeLayout = ({ children }: PropsWithChildren) => {
   return (
     <div className="grid">
-      <header className="flex flex-col justify-between min-h-screen p-32 bg-slate-900">
-        <div>
-          <h1
-            className={`font-medium uppercase text-6xl text-slate-300`}
-            // className={`font-medium uppercase text-6xl text-sky-400`}
-            // className={`${roboto.className} font-medium uppercase text-7xl text-sky-500`}
-          >
+      <header className="flex flex-col justify-between min-h-screen bg-slate-900">
+        <div className="sm:p-32 xs:p-12 w-full h-3/6">
+          <h1 className="font-medium uppercase text-6xl text-slate-300">
             Nathan Levick
           </h1>
-          {/* <div className="mb-4 text-4xl text-sky-300">UX Engineer</div> */}
           <h2 className="mb-2 text-4xl text-sky-300">UX Engineer</h2>
-          {/* <div className="text-2xl text-green-200 italic"> */}
-          {/*   prismatic innvoation */}
-          {/* </div> */}
         </div>
-        <div className="flex w-full justify-center">
-          <Link href="/#home">Dive deeper</Link>
+        <div>
+          <Waves />
+        </div>
+        <div className="flex w-full justify-center items-center h-2/6 bg-neutral-900">
+          <Link href="/#home">
+            <Button radius="sm" size="lg" variant="ghost" color="primary">
+              Dive Deeper
+            </Button>
+          </Link>
         </div>
       </header>
       <div
