@@ -1,4 +1,4 @@
-import Waves from '@/assets/waves';
+import Waves from '@/components/Waves';
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
 import { Button } from '@nextui-org/button';

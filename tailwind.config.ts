@@ -1,3 +1,4 @@
+import { nextui } from '@nextui-org/theme';
 import type { Config } from 'tailwindcss';
 import defaultTheme from 'tailwindcss/defaultTheme';
 
@@ -6,6 +7,7 @@ const config: Config = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './node_modules/@nextui-org/theme/dist/components/button.js',
   ],
   theme: {
     extend: {
@@ -16,7 +18,7 @@ const config: Config = {
         },
       },
       animation: {
-        wave: 'wave-motion 13s cubic-bezier(.55,0.5,.45,0.5) infinite',
+        wave: 'wave-motion 12s cubic-bezier(.55,0.5,.45,0.5) infinite',
       },
       screens: {
         xs: '375px',
@@ -24,6 +26,17 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  darkMode: 'class',
+  plugins: [
+    nextui({
+      themes: {
+        dark: {
+          colors: {
+            primary: '#0ea5e9',
+          },
+        },
+      },
+    }),
+  ],
 };
 export default config;

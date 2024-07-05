@@ -3,7 +3,6 @@ import colors from 'tailwindcss/colors';
 export default function Waves() {
   return (
     <svg
-      className="w-full h-1/6 max-h-40"
       xmlns="http://www.w3.org/2000/svg"
       xlinkHref="http://www.w3.org/1999/xlinkHref"
       viewBox="0 24 150 28"
