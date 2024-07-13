@@ -8,19 +8,22 @@ import { PropsWithChildren } from 'react';
 const HomeLayout = ({ children }: PropsWithChildren) => {
   return (
     <div className="grid">
-      <header className="flex flex-col justify-between min-h-screen bg-slate-900">
-        <div className="sm:p-32 xs:p-12 w-full h-3/6">
-          <h1 className="font-medium uppercase text-6xl text-slate-300">
+      <header className="flex flex-col justify-between min-h-screen bg-neutral-800">
+        {/* <header className="flex flex-col justify-between min-h-screen bg-slate-900"> */}
+        <div className=" xs:p-12 sm:p-20 md:p-32 w-full h-2/6 xs:text-center md:text-left">
+          {/* <h1 className="font-extrabold uppercase text-7xl text-slate-300 "> */}
+          <h1 className="font-extrabold uppercase text-7xl text-slate-300">
             Nathan Levick
           </h1>
-          <h2 className="mb-2 text-4xl text-sky-300">UX Engineer</h2>
+          <h2 className="mt-2 text-4xl text-primary italic">UX Engineer</h2>
         </div>
-        <div>
+        <div className="h-2/6">
           <Waves />
         </div>
-        <div className="flex w-full justify-center items-center h-2/6 bg-neutral-900">
+        {/* <div className="flex w-full justify-center items-center h-2/6 bg-background"> */}
+        <div className="flex w-full justify-center items-center h-2/6 bg-slate-900">
           <Link href="/#home">
-            <Button radius="sm" size="lg" variant="ghost" color="primary">
+            <Button radius="sm" size="lg" variant="bordered" color="primary">
               Dive Deeper
             </Button>
           </Link>

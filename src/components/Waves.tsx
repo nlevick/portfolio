@@ -7,6 +7,8 @@ export default function Waves() {
       xlinkHref="http://www.w3.org/1999/xlinkHref"
       viewBox="0 24 150 28"
       preserveAspectRatio="none"
+      width="100%"
+      height="100%"
       shapeRendering="auto"
     >
       <defs>
@@ -21,7 +23,8 @@ export default function Waves() {
           xlinkHref="#gentle-wave"
           x="48"
           y="0"
-          fill={colors.sky[300]}
+          fill={colors.teal[500]}
+          // fill={colors.cyan[400]}
         />
 
         <use
@@ -43,7 +46,8 @@ export default function Waves() {
           xlinkHref="#gentle-wave"
           x="48"
           y="7"
-          fill="#171717"
+          // fill={colors.neutral[900]}
+          fill={colors.slate[900]}
         />
       </g>
     </svg>
