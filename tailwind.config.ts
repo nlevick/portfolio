@@ -3,8 +3,6 @@ import type { Config } from 'tailwindcss';
 import defaultTheme from 'tailwindcss/defaultTheme';
 import colors from 'tailwindcss/colors';
 
-// const PRIMARY_COLOR = colors.emerald[300];
-// const PRIMARY_COLOR = colors.cyan[300];
 const PRIMARY_COLOR = colors.teal[500];
 
 const config: Config = {
@@ -21,7 +19,7 @@ const config: Config = {
       },
       colors: {
         primary: PRIMARY_COLOR,
-        background: colors.neutral[900],
+        background: colors.slate[900],
       },
       keyframes: {
         'wave-motion': {
