@@ -3,7 +3,7 @@ import type { Config } from 'tailwindcss';
 import defaultTheme from 'tailwindcss/defaultTheme';
 import colors from 'tailwindcss/colors';
 
-const PRIMARY_COLOR = colors.teal[500];
+export const PRIMARY_COLOR = colors.teal[500];
 
 const config: Config = {
   content: [
