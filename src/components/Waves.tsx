@@ -1,4 +1,5 @@
 import colors from 'tailwindcss/colors';
+import { PRIMARY_COLOR } from '../../tailwind.config';
 
 export default function Waves() {
   return (
@@ -23,8 +24,7 @@ export default function Waves() {
           xlinkHref="#gentle-wave"
           x="48"
           y="0"
-          fill={colors.teal[500]}
-          // fill={colors.cyan[400]}
+          fill={PRIMARY_COLOR}
         />
 
         <use
