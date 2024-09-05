@@ -1,4 +1,3 @@
-import { NextUIProvider } from '@nextui-org/system';
 import Footer from '@/components/Footer';
 import { inter } from '@/fonts';
 import type { Metadata } from 'next';
@@ -17,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`overflow-hidden text-stone-300 ${inter.className}`}>
-        <NextUIProvider>
           <div className="h-screen w-screen">
             <header>
               <nav></nav>
@@ -27,7 +25,6 @@ export default function RootLayout({
             </main>
             <Footer />
           </div>
-        </NextUIProvider>
       </body>
     </html>
   );
