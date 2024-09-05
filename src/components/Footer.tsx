@@ -5,8 +5,8 @@ import IconLinkedin from './icons/Linkedin';
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col justify-center bg-background text-sm w-full h-1/6">
-      <div className="flex justify-center ">
+    <div className="p-1 flex flex-col justify-center bg-background text-sm w-full h-full">
+      <div className="p-1 flex justify-center">
         <Link href="https://github.com/nlevick" className="m-1 h-9 w-9">
           <IconLinkedin />
         </Link>
@@ -20,7 +20,7 @@ export default function Footer() {
           <IconCodepen />
         </Link>
       </div>
-      <div className="p-2 text-center">© 2024 Nathan Levick</div>
-    </footer>
+      <div className="text-center">© 2024 Nathan Levick</div>
+    </div>
   );
 }
