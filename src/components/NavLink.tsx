@@ -13,10 +13,12 @@ export default function NavLink({
   const pathname = usePathname();
   const isActive = pathname === props.href;
 
-  console.log(isActive, pathname, props.href);
   return (
     <div className={isActive ? activeStyle : ''}>
-      <Link className="px-8 uppercase font-medium" {...props}>
+      <Link
+        className="px-8 uppercase font-medium transition ease-in-out hover:text-primary duration-250"
+        {...props}
+      >
         {children}
       </Link>
     </div>

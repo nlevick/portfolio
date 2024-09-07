@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-between h-full bg-gradient-radial from-slate-700 to-slate-800">
       <div
-        className="pt-[15vh] sm:pt-[20vh] w-full h-[60vh] sm:h-[40vh] text-center"
+        className="pt-[15vh] w-full h-[60vh] sm:h-[40vh] text-center"
         style={{ textShadow: `1px 0px 6px ${BG_COLOR}` }}
       >
         <h1 className="font-extrabold uppercase text-7xl">Nathan Levick</h1>
