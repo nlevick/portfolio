@@ -1,5 +1,5 @@
+[![publish](https://github.com/nlevick/portfolio/actions/workflows/publish.yml/badge.svg)](https://github.com/nlevick/portfolio/actions/workflows/publish.yml)
 # Home Page v0.1
-
 
 [https://nlevick.github.io/portfolio/](https://nlevick.github.io/portfolio/)
 
