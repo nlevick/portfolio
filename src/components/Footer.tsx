@@ -17,7 +17,7 @@ export default function Footer() {
           <IconCodepen />
         </FooterLink>
       </div>
-      <div className="text-center">© 2024 Nathan Levick</div>
+      <div className="text-center">© 2026 Nathan Levick</div>
     </div>
   );
 }
