@@ -46,7 +46,6 @@ export default function Waves() {
           xlinkHref="#gentle-wave"
           x="48"
           y="7"
-          // fill={colors.neutral[900]}
           fill={colors.slate[900]}
         />
       </g>
