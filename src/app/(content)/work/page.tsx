@@ -1,5 +1,4 @@
 import Card from '@/components/Card/Card';
-import Subsection from '@/components/Card/Subsection';
 
 export default function Work() {
   return (
@@ -8,7 +7,7 @@ export default function Work() {
         <Card title="Projects">
           <p className="mb-3">
             I am leading the UI architecture of FDA-cleared digital pathology
-            software at Indica Labs. Check it out{' '}
+            SaaS at Indica Labs. Check the details and some screenshots{' '}
             <a
               className="bold underline"
               href="https://indicalab.com/clinical-products/halo-ap-dx"
@@ -19,7 +18,7 @@ export default function Work() {
             .
           </p>
           <p>
-            More project stories comming soon. Want more details?{' '}
+            More project stories coming soon. Want more details?{' '}
             <a
               className="bold underline"
               href="https://linkedin.com/in/nathan-levick"
