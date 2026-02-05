@@ -18,28 +18,28 @@ export default function About() {
         <Card title="Process">
           <p>
             I build web apps by spanning the entire UX stack, from user research
-            to production deployment. Using my unconventional journey to
-            software (studying art, math, and screenwriting), my solutions blend
+            to production deployment. With an unconventional journey to software
+            (studying art, math, and screenwriting), my solutions blend
             creativity, technicality, and storytelling.
           </p>
           <Divider />
           <Subsection title="Research">
             <p>
-              I start with by understanding users through interviews, usability
+              I start by understanding users through interview, usability
               testing, and analysis.
             </p>
           </Subsection>
 
           <Subsection title="Design">
             <p>
-              I create lo-fi wireframes explore concepts then usually move
-              directly to code rapid iteration.
+              I explore concepts through wireframe and then move to code for
+              rapid iteration.
             </p>
           </Subsection>
 
           <Subsection title="Code">
             <p>
-              I build emphasizing scalability, performance, and testability.
+              I architect emphasizing scalability, performance, and testability.
             </p>
           </Subsection>
         </Card>
